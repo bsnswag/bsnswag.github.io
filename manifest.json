@@ -7,7 +7,7 @@
   "orientation": "portrait",
   "Scope": "/",
   "start_url": "/index.html",
-  "pngns": [
+  "icons": [
     {
       "src": "images/16.png",
       "sizes": "16x16",
