@@ -2,7 +2,7 @@
   "name": "GEARRON",
   "short_name": " GEARRON",
   "theme_color": "#ede71b",
-  "background_color": "#000",
+  "background_color": "#ffc107",
   "display": "standalone",
   "orientation": "portrait",
   "Scope": "/",
