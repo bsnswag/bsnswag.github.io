@@ -1,8 +1,8 @@
 {
-  "name": "GEARRON",
+  "name": "GEARRON | BIKE RENTAL",
   "short_name": " GEARRON",
   "theme_color": "#ede71b",
-  "background_color": "#010101",
+  "background_color": "#000000",
   "display": "standalone",
   "orientation": "portrait",
   "Scope": "/",
