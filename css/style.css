@@ -146,6 +146,45 @@ h1, h2, h3, h4, h5,
 .site-navbar .site-navigation .site-menu a{text-decoration:none !important;display:inline-block;}
 {.active:hover{transition:background-color 0.5s ease;opacity:0.7;background-color:red;}
 }
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
 a:hover{transition:background-color 0.5s ease;opacity:0.7;background-color:red;color:yellow;}
 .site-navbar .site-navigation .site-menu > li{display:inline-block;}
 .site-navbar .site-navigation .site-menu > li > a{margin-left:15px;margin-right:15px;padding:20px 0px;color:#fff !important;display:inline-block;text-decoration:none !important;}
@@ -337,7 +376,7 @@ a:hover{transition:background-color 0.5s ease;opacity:0.7;background-color:red;c
 .ftco-blocks-cover-1 .ftco-service-image-1{margin-top:-70px;position:static;}
 .ftco-cover-1{background-size:cover;background-position:center center;background-repeat:no-repeat;}
 .ftco-cover-1, .ftco-cover-1 .container > .row{height:100vh;min-height:900px;}
-.ftco-cover-1.innerpage, .ftco-cover-1.innerpage .container > .row{height:10vh;min-height:400px;}
+.ftco-cover-1.innerpage, .ftco-cover-1.innerpage .container > .row{height:90vh;min-height:700px;}
 .ftco-cover-1 > .container{position:relative;}
 .ftco-cover-1.overlay{position:relative;}
 .ftco-cover-1.overlay:before{content:"";position:absolute;top:0;left:0;right:0;bottom:0;opacity:.5;background:#000;}
@@ -359,6 +398,10 @@ a:hover{transition:background-color 0.5s ease;opacity:0.7;background-color:red;c
 .owl-all .owl-carousel .owl-stage-outer{width:100%;overflow:visible;}
 .owl-all .owl-stage-outer > .owl-stage > .owl-item{display:-ms-inline-grid;display:inline-grid;float:none;margin-bottom:30px;}
 }
+.blog-entry .blog-thumbnail{-webkit-box-flex:0;-ms-flex:0 0 150px;flex:0 0 150px;margin-right:20px;}
+.blog-entry .blog-thumbnail img{border-radius:4px;}
+.blog-entry .blog-excerpt a{color:#000;}
+.blog-entry .blog-excerpt a:hover{color:#ede71b;}
 .bg-light{background-color:#f6f5f5 !important;}
 .feature-1{background:#ccc;position:relative;display:block;z-index:1;margin-bottom:30px;}
 .feature-1 .feature-1-contents{position:absolute;z-index:2;top:0;left:0;right:0;bottom:0;padding:30px;background:#fff;opacity:0;visibility:hidden;-webkit-transition:.3s all ease;-o-transition:.3s all ease;transition:.3s all ease;}

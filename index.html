@@ -79,7 +79,7 @@
 
 <!--Home -->
     <div class="ftco-blocks-cover-1">
-      <div class="ftco-cover-1 overlay" style="background-image: url('images/hero.jpg')">
+      <div class="ftco-cover-1 overlay" style="background-image: url('images/hero_1.jpg')">
          </div>
       </div>
     </div>
@@ -149,7 +149,7 @@
 <!--Offer-->
     <div class="site-section bg-light">
       <div class="container">
-       <!--  <marquee style="font-size: 24px; color: red;"><img src="new.gif" width="120px;" height="90px;">On the special occasion of Janmastami (23/08/19). GearrOn launches it's grand holiday offer each bike at ₹99/ 3hr. You can exclusively avail it from 6:00 A.M to 10:00 P.M (23/08/19). Hurry Up! Grab the unbeatable Offer.</marquee> -->
+        <marquee style="font-size: 24px; color: red;"><img src="new.gif" width="60px;" height="50px;"> On the special occasion of Janmastami (23/08/19). GearrOn launches it's grand holiday offer each bike at ₹99/ 3hr. You can exclusively avail it from 6:00 A.M to 10:00 P.M (23/08/19). Hurry Up! Grab the unbeatable Offer.</marquee>
         <div class="row">
           
           <div class="col-lg-3">
@@ -194,8 +194,8 @@
                       <span class="spec">₹599/-</span>
                     </li>
                   </ul>
-                  <div class="d-flex action">
-                    <a href="#book" class="btn btn-primary">Rent Now</a>
+                  <div class="d-flex action" id="myBtn" >
+                    <a href="#book" class="btn btn-primary" id="myBtn">Rent Now</a>
                   </div>
                   <p>&nbsp;</p>
                   <p><sup>*</sup>Petrol not included for hourly rents</p>
@@ -213,7 +213,7 @@
                     <span class="icon-star text-warning"></span>
                     <span class="icon-star text-warning"></span>
                   </div>
-                  <div class="rent-price"><span>₹19/</span>15 min (Petrol Included)</div>
+                  <div id="myBtn"class="rent-price"><span>₹19/</span>15 min (Petrol Included)</div>
                   </div>
                   <ul class="specs">
                     <li>
@@ -237,8 +237,8 @@
                       <span class="spec">₹599/-</span>
                     </li>
                   </ul>
-                  <div class="d-flex action">
-                    <a href="#book" class="btn btn-primary">Rent Now</a>
+                  <div class="d-flex action" id="myBtn1">
+                    <a href="#book" class="btn btn-primary" id="myBtn1">Rent Now</a>
                   </div>
                    <p>&nbsp;</p>
                   <p><sup>*</sup>Petrol not included for hourly rents</p>
@@ -250,6 +250,18 @@
       </div>
     </div>
     <!-- End offer -->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+
+</div>
+
 
 <!--About us -->
 <section id="about">
@@ -412,8 +424,8 @@
                 <h2>Kiran Kumar Behera</h2>
                 </div>
             </div>
-          </div> 
-         <!-- <div class="col-lg-4 col-md-6 mb-5">
+          </div>
+         <div class="col-lg-4 col-md-6 mb-5">
             <div class="post-entry-1 h-100 person-1">
                 <img src="images/person_6.jpg" alt="Image"
                  class="img-fluid">
@@ -422,7 +434,7 @@
                 <h2>Tanshit Rahman</h2>
                 </div>
             </div>
-          </div> -->
+          </div>
         </div>
       </div>
     </div>
